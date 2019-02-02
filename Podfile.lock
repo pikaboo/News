@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.8.1)
+  - AlamofireXmlToObjects (2.1.0):
+    - Alamofire
+    - EVReflection
+    - XMLDictionary
+  - EVReflection (5.9.0):
+    - EVReflection/Core (= 5.9.0)
+  - EVReflection/Core (5.9.0)
+  - FireMock (3.1)
+  - SwiftHamcrest (2.1.0)
+  - XMLDictionary (1.4.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireXmlToObjects
+  - FireMock
+  - SwiftHamcrest (~> 2.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireXmlToObjects
+    - EVReflection
+    - FireMock
+    - SwiftHamcrest
+    - XMLDictionary
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AlamofireXmlToObjects: 3614c4945a5b154041ea9ade99644b5de66d5857
+  EVReflection: 52aa00a9035145b1fcf99acae01b782ecc4adad7
+  FireMock: 3eed872059c12f94855413347da83b9d6d1a6fac
+  SwiftHamcrest: 3a3bd69a9e65dbaffb573eae6760f58caa48d00e
+  XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
+
+PODFILE CHECKSUM: 7f8ec09b6d84cb033ae4127e769ba2c181f45277
+
+COCOAPODS: 1.6.0.beta.2
