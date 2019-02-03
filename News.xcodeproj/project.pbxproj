@@ -12,7 +12,6 @@
 		BFB84E5D2204C02B000BEB31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB84E5B2204C02B000BEB31 /* Main.storyboard */; };
 		BFB84E5F2204C02D000BEB31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB84E5E2204C02D000BEB31 /* Assets.xcassets */; };
 		BFB84E622204C02D000BEB31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB84E602204C02D000BEB31 /* LaunchScreen.storyboard */; };
-		BFB84E6D2204C02D000BEB31 /* NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB84E6C2204C02D000BEB31 /* NewsTests.swift */; };
 		BFB84E782204C02D000BEB31 /* NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB84E772204C02D000BEB31 /* NewsUITests.swift */; };
 		BFB84E862204F561000BEB31 /* FireMockExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB84E852204F561000BEB31 /* FireMockExtension.swift */; };
 		BFB84E8822057AD0000BEB31 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB84E8722057AD0000BEB31 /* Client.swift */; };
@@ -83,7 +82,6 @@
 		BFB84E612204C02D000BEB31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFB84E632204C02D000BEB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFB84E682204C02D000BEB31 /* NewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFB84E6C2204C02D000BEB31 /* NewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTests.swift; sourceTree = "<group>"; };
 		BFB84E6E2204C02D000BEB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFB84E732204C02D000BEB31 /* NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB84E772204C02D000BEB31 /* NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsUITests.swift; sourceTree = "<group>"; };
@@ -209,7 +207,6 @@
 			children = (
 				BFB84ECD2206F15C000BEB31 /* Stubs */,
 				BFB84E9622058C4E000BEB31 /* Base */,
-				BFB84E6C2204C02D000BEB31 /* NewsTests.swift */,
 				BFB84E6E2204C02D000BEB31 /* Info.plist */,
 				BFB84E8922057D68000BEB31 /* RequestTests.swift */,
 				BFB84ECE2206F3F5000BEB31 /* ServerManagerTests.swift */,
@@ -621,7 +618,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB84E8A22057D68000BEB31 /* RequestTests.swift in Sources */,
-				BFB84E6D2204C02D000BEB31 /* NewsTests.swift in Sources */,
 				BFB84E862204F561000BEB31 /* FireMockExtension.swift in Sources */,
 				BFB84E8F22058703000BEB31 /* Stubs.swift in Sources */,
 				BFB84ECF2206F3F5000BEB31 /* ServerManagerTests.swift in Sources */,
