@@ -11,11 +11,14 @@ import Foundation
 import Alamofire
 public class Client: NSObject {
     public var baseURL : String! = ""
-    
+    fileprivate var manager: SessionManager!
     
     public required init(baseURL: String!){
         super.init()
         self.baseURL = baseURL
+        let configuration = URLSessionConfiguration.default
+        configuration.urlCredentialStorage = nil
+        self.manager = Alamofire.SessionManager(configuration: configuration)
     }
     
     public func path(_ urlPath: String!)->String!{
@@ -25,7 +28,7 @@ public class Client: NSObject {
     public func makeRequest(method:HTTPMethod,path:String!) ->DataRequest{
         let url = self.path(path)!
         
-        let dataRequest: DataRequest = Alamofire.request(url,method:method)
+        let dataRequest: DataRequest = self.manager.request(url,method:method)
         debugPrint(dataRequest)
         return dataRequest
     }

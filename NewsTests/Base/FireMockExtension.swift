@@ -30,8 +30,7 @@ extension NSObject {
     func enqueueResponse<T: FireMockProtocol & FireMockInfo>(mock: T) {
         let path : String = mock.path
         assertThat(path.count, not(equalTo(0)))
-        let url = URL(string:"http://feeds.reuters.com/\(path)")
-        print("registering mock for \(String(describing: url?.absoluteString))")
+        let url = URL(string:"\(Stubs.baseURL)/\(path)")
         FireMock.register(mock: mock, forURL: url!, httpMethod: mock.method, enabled: true)
     }
 }
