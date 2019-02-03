@@ -51,7 +51,9 @@ class FeedViewController: UIViewController {
             }
         }
     }
-    
+    /*
+    * Activity indicator loading state
+    */
     var loading: Bool! {
         didSet{
             switch self.loading  {
